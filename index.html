@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Коллекция</title>
+</head>
+<body bgcolor="black">
+    <div class="set">
+        <button onclick="location.href='https://t.me/teleb0t1k_bot/mix1'" alt="Микстейп 1">
+            <i>М</i>
+            <i>и</i>
+            <i>к</i>
+            <i>с</i>
+            <i>т</i>
+            <i>е</i>
+            <i>й</i>
+            <i>п</i>
+            <i>&nbsp;</i>
+            <i>1</i>
+        </button>
+        
+        <button onclick="location.href='https://t.me/teleb0t1k_bot/mix2'" alt="Микстейп 2">
+            <i>М</i>
+            <i>и</i>
+            <i>к</i>
+            <i>с</i>
+            <i>т</i>
+            <i>е</i>
+            <i>й</i>
+            <i>п</i>
+            <i>&nbsp;</i>
+            <i>2</i>
+        </button>
+        
+        <button onclick="location.href='https://t.me/teleb0t1k_bot/mix3'" alt="Микстейп 3">
+            <i>М</i>
+            <i>и</i>
+            <i>к</i>
+            <i>с</i>
+            <i>т</i>
+            <i>е</i>
+            <i>й</i>
+            <i>п</i>
+            <i>&nbsp;</i>
+            <i>3</i>
+        </button>
+        
+        <button onclick="location.href='https://t.me/teleb0t1k_bot/mix4'" alt="Микстейп 4">
+            <i>М</i>
+            <i>и</i>
+            <i>к</i>
+            <i>с</i>
+            <i>т</i>
+            <i>е</i>
+            <i>й</i>
+            <i>п</i>
+            <i>&nbsp;</i>
+            <i>4</i>
+        </button>
+    </div>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* высота вьюпорта */
+            margin: 0; /* убираем отступы */
+        }
+
+        .set{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            
+        }
+        button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        position: relative;
+        padding: 0 20px;
+        font-size: 30px;
+        text-transform: uppercase;
+        border: 0;
+        box-shadow: hsl(210deg 87% 36%) 0px 7px 0px 0px;
+        background-color: hsl(210deg 100% 44%);
+        border-radius: 12px;
+        overflow: hidden;
+        transition: 31ms cubic-bezier(.5, .7, .4, 1);
+        }
+
+        button:before {
+        content: attr(alt);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        inset: 0;
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        letter-spacing: 4px;
+        opacity: 1;
+        }
+
+        button:active {
+        box-shadow: none;
+        transform: translateY(7px);
+        transition: 35ms cubic-bezier(.5, .7, .4, 1);
+        }
+
+        button:hover:before {
+        transition: all .0s;
+        transform: translateY(100%);
+        opacity: 0;
+        }
+
+        button i {
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: 4px;
+        font-style: normal;
+        transition: all 2s ease;
+        transform: translateY(-20px);
+        opacity: 0;
+        }
+
+        button:hover i {
+        transition: all .2s ease;
+        transform: translateY(0px);
+        opacity: 1;
+        }
+
+        button:hover i:nth-child(1) {
+        transition-delay: 0.045s;
+        }
+
+        button:hover i:nth-child(2) {
+        transition-delay: calc(0.045s * 3);
+        }
+
+        button:hover i:nth-child(3) {
+        transition-delay: calc(0.045s * 4);
+        }
+
+        button:hover i:nth-child(4) {
+        transition-delay: calc(0.045s * 5);
+        }
+
+        button:hover i:nth-child(6) {
+        transition-delay: calc(0.045s * 6);
+        }
+
+        button:hover i:nth-child(7) {
+        transition-delay: calc(0.045s * 7);
+        }
+
+        button:hover i:nth-child(8) {
+        transition-delay: calc(0.045s * 8);
+        }
+
+        button:hover i:nth-child(9) {
+        transition-delay: calc(0.045s * 9);
+        }
+
+        button:hover i:nth-child(10) {
+        transition-delay: calc(0.045s * 10);
+        }
+    </style>
+</body>
+</html>
